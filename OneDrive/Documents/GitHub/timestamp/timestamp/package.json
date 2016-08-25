@@ -2,10 +2,9 @@
   "name": "timeStamp",
   "version": "0.0.0",
   "private": true,
-  "engines":{
-      
+  "engines":{     
       "start":"node ./bin/www"
-  }
+  },
   "scripts": {
     "start": "node ./bin/www"
   },
