@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  h1 RESTful API
+  h2 Time Microservice
+  code Instructions: Type a backslash on front of localhost:3000 then the unix time stamp  
+  br
+  code or the date in the  form "Month Day, Year"
+  br
+  h3 Examples  
+  br
+  code localhost:3000/July 04, 2016
+  br
+  code localhost:3000/1467590400
+  br
+  h3 Output 
+  code The expected Output is JSON
+  br
+  code {"unix": 1467590400, "natural": July 04, 2016 }
